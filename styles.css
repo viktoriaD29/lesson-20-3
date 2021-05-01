@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 
 .container {
   display: flex;
@@ -24,7 +26,7 @@
   border: 4px solid lightgray;
   border-top: 4px solid black;
   margin-bottom: 8px;
-  margin-left: 25%;
+  margin: 0px auto 8px auto;
   animation: linears linear 2s;
 }
 

@@ -9,6 +9,10 @@
 
 .spinner {
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .spinner-text {
@@ -27,8 +31,6 @@
   border-top: 4px solid black;
   margin-bottom: 8px;
   /*margin: 0px auto 8px auto;*/
-  margin-bottom: 8px;
-  margin-left: 18.5%;
   animation: linears linear 2s;
 }
 
